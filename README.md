@@ -13,6 +13,8 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript)
 ![Python](https://img.shields.io/badge/Python-3670A0?logo=python)
 
+## 🗂️ Projects 
+![Secret Pipe](https://secret-pipe.pages.dev) - dead-drop for passwords, API keys, private messages, etc.
 
 ## 📫 Get in Touch
 - 💼 [LinkedIn](https://linkedin.com/in/mlemiec)
