@@ -1,15 +1,13 @@
 # 👋 Hi, I'm Michal!
 
-💻 Fullstack Developer (.NET + TypeScript) | 🤖 ML & Computer Vision Enthusiast  
-🚀 I build end-to-end web systems & integrate smart features using AI.
+💻 Full‑stack engineer focused on .NET and TypeScript, with a passion for machine learning and computer vision.
 
 ## 🧠 What I Do
-- 🔷 .NET Core API  
-- ⚛️ TypeScript frontend  
-- ☁️ Azure & CI/CD  
-- 🧩 Exploring Retrieval-Augmented Generation (RAG) systems  
-- ⚙️ Building with FastAPI, Streamlit, and LlamaIndex  
-- And learnig more 😏  
+- Build robust .NET Core APIs
+- Develop modern TypeScript front‑ends
+- Design CI/CD pipelines on Azure
+- Explore Retrieval‑Augmented Generation (RAG) systems
+- Create tools with FastAPI, Streamlit, and LlamaIndex
 
 ## 🔧 Tech Stack
 ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
@@ -19,24 +17,9 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-FFD700?logo=llamaindex&logoColor=black)
 
-## 🗂️ Projects 
-[Secret Pipe](https://secret-pipe.pages.dev) – dead-drop for passwords, API keys, private messages, etc.
+## 📂 Projects
+- **[Secret Pipe](https://secret-pipe.pages.dev)** – A secure dead‑drop for passwords, API keys, and private messages.
+- ![Nana UI](https://raw.githubusercontent.com/mlemiec/nana/main/nana/assets/nana.png) **[NANA](https://pypi.org/project/nana-wiki/)** – A note‑taking assistant that syncs markdown vaults. 
 
 ## 📫 Get in Touch
 - 💼 [LinkedIn](https://linkedin.com/in/mlemiec)
-
-
-<!--
-**lemiecm/lemiecm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
