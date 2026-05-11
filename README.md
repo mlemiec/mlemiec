@@ -14,7 +14,7 @@
     </tr>
     <tr>
       <td colspan="3">
-        <img src="https://streak-stats.demolab.com?user=mlemiec&theme=tokyonight&hide_border=true&background=161B22&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=F0F6FC&currStreakLabel=8B949E&dates=8B949E&hide_total_contributions=true&hide_longest_streak=true&card_width=760" width="760" alt="Current GitHub commit streak" />
+        <img src="https://streak-stats.demolab.com?user=mlemiec&amp;theme=tokyonight&amp;hide_border=true&amp;background=161B22&amp;stroke=30363D&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakNum=F0F6FC&amp;currStreakLabel=8B949E&amp;dates=8B949E&amp;hide_total_contributions=true&amp;hide_longest_streak=true&amp;card_width=760" width="760" alt="Current GitHub commit streak" />
       </td>
     </tr>
   </table>
