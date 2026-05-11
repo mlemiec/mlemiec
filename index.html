@@ -6,65 +6,69 @@
   <title>Bento Portfolio</title>
   <style>
     :root {
-      --bg-color: #0d1117;
+      color-scheme: dark;
+      --bg: #0d1117;
+      --text: #c9d1d9;
+      --muted: #8b949e;
+      --link: #58a6ff;
     }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      background-color: var(--bg-color);
+      min-height: 100vh;
       margin: 0;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+    }
+
+    main {
+      width: min(100%, 820px);
+      padding: 32px 20px;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    nav {
       display: flex;
       justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      font-family: system-ui, -apple-system, sans-serif;
+      gap: 18px;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 15px;
     }
-    .bento-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, 240px);
-      grid-auto-rows: 170px;
-      grid-auto-flow: dense;
-      gap: 16px;
-      max-width: 1040px; /* Fits 4 columns nicely */
-      padding: 20px;
-      justify-content: center;
+
+    a {
+      color: var(--link);
+      font-weight: 700;
+      text-decoration: none;
     }
-    .card-wrapper {
-      width: 240px;
-      height: 170px;
-      transition: transform 0.2s ease;
-    }
-    .card-wrapper.span-2 {
-      grid-column: span 2;
-      width: 496px; /* (240 * 2) + 16 gap */
-    }
-    .card-wrapper.row-2 {
-      grid-row: span 2;
-      height: 356px; /* (170 * 2) + 16 gap */
-    }
-    .card-wrapper:hover {
-      transform: translateY(-5px);
-    }
-    img {
-      width: 100%;
-      height: 100%;
-      display: block;
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="bento-grid">
-    <!-- Large items first for better flow -->
-    <div class="card-wrapper span-2"><img src="bento-intro.svg" alt="Hi, I'm Michal!"></div>
-    <div class="card-wrapper row-2"><img src="bento-tech.svg" alt="Tech Stack"></div>
-    <div class="card-wrapper span-2"><img src="bento-hobbies.svg" alt="Hobbies"></div>
-
-    <div class="card-wrapper"><a href="https://pypi.org/project/nana-wiki/"><img src="bento-nana.svg" alt="Nana Project"></a></div>
-    <div class="card-wrapper"><a href="https://secret-pipe.pages.dev"><img src="bento-secret-pipe.svg" alt="Secret Pipe Project"></a></div>
-    <div class="card-wrapper"><a href="https://linkedin.com/in/mlemiec"><img src="bento-contact.svg" alt="Contact Info"></a></div>
-
-    <!-- Dynamic GitHub Streak Count -->
-    <div class="card-wrapper">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=mlemiec&theme=tokyonight&hide_border=true&background=161b22&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=8b949e&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak">
-    </div>
-  </div>
+  <main>
+    <img src="bento.svg" alt="Michal Lemiec portfolio bento">
+    <nav aria-label="Profile links">
+      <a href="https://linkedin.com/in/mlemiec">LinkedIn</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://secret-pipe.pages.dev">Secret Pipe</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://pypi.org/project/nana-wiki/">NANA</a>
+    </nav>
+  </main>
 </body>
 </html>
