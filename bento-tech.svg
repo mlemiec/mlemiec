@@ -1,21 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 360" width="240" height="360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 360" width="240" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">Tech Stack</title>
+  <desc id="desc">.NET, C#, TypeScript, FastAPI, and LlamaIndex.</desc>
   <style>
-    .card { fill: #161b22; stroke: #30363d; stroke-width: 2; }
-    .title { fill: #c9d1d9; font-family: system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 20px; }
-    .text { fill: #8b949e; font-family: system-ui, -apple-system, sans-serif; font-size: 15px; }
-    .highlight { fill: #58a6ff; font-weight: 600; }
-    .icon { font-size: 24px; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1.25; }
+    .title { fill: #f0f6fc; font: 700 22px system-ui, -apple-system, Segoe UI, sans-serif; }
+    .pill { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .text { fill: #8b949e; font: 15px system-ui, -apple-system, Segoe UI, sans-serif; }
   </style>
-  <rect class="card" x="1" y="1" width="238" height="358" rx="15" />
-  <text class="title icon" x="30" y="45">🔧</text>
-  <text class="title" x="65" y="45">Tech Stack</text>
-  <text class="text highlight" x="30" y="90">Backend:</text>
-  <text class="text" x="30" y="115">• .NET Core / C#</text>
-  <text class="text" x="30" y="140">• Python (FastAPI)</text>
-  <text class="text highlight" x="30" y="180">Frontend:</text>
-  <text class="text" x="30" y="205">• TypeScript</text>
-  <text class="text" x="30" y="230">• Streamlit</text>
-  <text class="text highlight" x="30" y="270">AI / ML:</text>
-  <text class="text" x="30" y="295">• LlamaIndex</text>
-  <text class="text" x="30" y="320">• RAG Systems</text>
+  <rect class="card" x="1" y="1" width="238" height="358" rx="18"/>
+  <text class="title" x="26" y="48">Tech</text>
+  <rect class="pill" x="26" y="82" width="128" height="34" rx="17"/>
+  <text class="text" x="44" y="104">.NET / C#</text>
+  <rect class="pill" x="26" y="132" width="134" height="34" rx="17"/>
+  <text class="text" x="44" y="154">TypeScript</text>
+  <rect class="pill" x="26" y="182" width="118" height="34" rx="17"/>
+  <text class="text" x="44" y="204">FastAPI</text>
+  <rect class="pill" x="26" y="232" width="142" height="34" rx="17"/>
+  <text class="text" x="44" y="254">LlamaIndex</text>
+  <rect class="pill" x="26" y="282" width="120" height="34" rx="17"/>
+  <text class="text" x="44" y="304">Streamlit</text>
 </svg>
