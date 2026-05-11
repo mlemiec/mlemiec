@@ -5,12 +5,12 @@
       <td style="background: #0d1117; border: none; padding: 4px;"><a href="https://linkedin.com/in/mlemiec"><img src="./bento-contact.svg" width="240" height="170" alt="Contact" /></a></td>
     </tr>
     <tr style="border: none;">
-      <td rowspan="2" style="background: #0d1117; border: none; padding: 4px;"><img src="./bento-tech.svg" width="240" height="360" alt="Tech stack" /></td>
-      <td colspan="2" style="background: #0d1117; border: none; padding: 4px;"><img src="./bento-hobbies.svg" width="500" height="170" alt="Focus" /></td>
-    </tr>
-    <tr style="border: none;">
+      <td style="background: #0d1117; border: none; padding: 4px;"><img src="./bento-tech.svg" width="240" height="170" alt="Tech stack" /></td>
       <td style="background: #0d1117; border: none; padding: 4px;"><a href="https://secret-pipe.pages.dev"><img src="./bento-secret-pipe.svg" width="240" height="170" alt="Secret Pipe" /></a></td>
       <td style="background: #0d1117; border: none; padding: 4px;"><a href="https://pypi.org/project/nana-wiki/"><img src="./bento-nana.svg" width="240" height="170" alt="NANA" /></a></td>
+    </tr>
+    <tr style="border: none;">
+      <td colspan="3" style="background: #0d1117; border: none; padding: 4px;"><img src="./bento-hobbies.svg" width="760" height="170" alt="Focus" /></td>
     </tr>
     <tr style="border: none;">
       <td colspan="3" style="background: #0d1117; border: none; padding: 4px;">
