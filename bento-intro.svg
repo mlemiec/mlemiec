@@ -2,11 +2,13 @@
   <title id="title">Hi, I'm Michal</title>
   <desc id="desc">Full-stack engineer focused on .NET, TypeScript, machine learning, and computer vision.</desc>
   <style>
+    .canvas { fill: #0d1117; }
     .card { fill: #161b22; stroke: #30363d; stroke-width: 1.25; }
     .eyebrow { fill: #58a6ff; font: 600 13px system-ui, -apple-system, Segoe UI, sans-serif; letter-spacing: .08em; }
     .title { fill: #f0f6fc; font: 700 28px system-ui, -apple-system, Segoe UI, sans-serif; }
     .text { fill: #8b949e; font: 16px system-ui, -apple-system, Segoe UI, sans-serif; }
   </style>
+  <rect class="canvas" width="500" height="170"/>
   <rect class="card" x="1" y="1" width="498" height="168" rx="18"/>
   <text class="eyebrow" x="30" y="46">FULL-STACK ENGINEER</text>
   <text class="title" x="30" y="86">Hi, I'm Michal.</text>

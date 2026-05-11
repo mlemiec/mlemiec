@@ -2,11 +2,13 @@
   <title id="title">NANA</title>
   <desc id="desc">A note-taking assistant that syncs markdown vaults.</desc>
   <style>
+    .canvas { fill: #0d1117; }
     .card { fill: #161b22; stroke: #30363d; stroke-width: 1.25; }
     .title { fill: #f0f6fc; font: 700 22px system-ui, -apple-system, Segoe UI, sans-serif; }
     .text { fill: #8b949e; font: 15px system-ui, -apple-system, Segoe UI, sans-serif; }
     .link { fill: #58a6ff; font: 700 15px system-ui, -apple-system, Segoe UI, sans-serif; }
   </style>
+  <rect class="canvas" width="240" height="170"/>
   <rect class="card" x="1" y="1" width="238" height="168" rx="18"/>
   <text class="title" x="26" y="48">NANA</text>
   <text class="text" x="26" y="88">Note-taking assistant</text>
