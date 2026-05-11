@@ -12,5 +12,10 @@
       <td><a href="https://secret-pipe.pages.dev"><img src="./bento-secret-pipe.svg" width="240" height="170" alt="Secret Pipe" /></a></td>
       <td><a href="https://pypi.org/project/nana-wiki/"><img src="./bento-nana.svg" width="240" height="170" alt="NANA" /></a></td>
     </tr>
+    <tr>
+      <td colspan="3">
+        <img src="https://streak-stats.demolab.com?user=mlemiec&theme=tokyonight&hide_border=true&background=161B22&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=F0F6FC&currStreakLabel=8B949E&dates=8B949E&hide_total_contributions=true&hide_longest_streak=true&card_width=760" width="760" alt="Current GitHub commit streak" />
+      </td>
+    </tr>
   </table>
 </div>
