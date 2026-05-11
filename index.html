@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bento Portfolio</title>
+  <style>
+    :root {
+      --bg-color: #0d1117;
+    }
+    body {
+      background-color: var(--bg-color);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .bento-grid {
+      display: grid;
+      /* This creates a responsive grid that fits as many 240px columns as possible */
+      grid-template-columns: repeat(auto-fit, 240px);
+      gap: 16px;
+      max-width: 1040px; /* Fits 4 columns nicely */
+      padding: 20px;
+      justify-content: center;
+    }
+    .card-wrapper {
+      width: 240px;
+      height: 170px;
+      transition: transform 0.2s ease;
+    }
+    .card-wrapper:hover {
+      transform: translateY(-5px);
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="bento-grid">
+    <div class="card-wrapper"><img src="bento-nana.svg" alt="Nana Project"></div>
+    <div class="card-wrapper"><img src="bento-secret-pipe.svg" alt="Secret Pipe Project"></div>
+    <div class="card-wrapper"><img src="bento-contact.svg" alt="Contact Info"></div>
+    
+    <!-- Dynamic GitHub Streak Count -->
+    <!-- Replace 'YOUR_USERNAME' with your actual GitHub handle -->
+    <div class="card-wrapper">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=mlemiec&theme=tokyonight&hide_border=true&background=161b22&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=8b949e&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak">
+    </div>
+  </div>
+</body>
+</html>
