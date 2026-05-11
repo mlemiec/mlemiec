@@ -1,7 +1,4 @@
 <div align="center">
-  <h1>Personal Portfolio</h1>
-  <p>Checkout the <a href="https://mlemiec.github.io">Live Bento Version</a></p>
-
   <!-- Bento Table Layout -->
   <table style="background: transparent; border: none;">
     <tr style="border: none;">
