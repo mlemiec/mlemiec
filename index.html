@@ -19,8 +19,9 @@
     }
     .bento-grid {
       display: grid;
-      /* This creates a responsive grid that fits as many 240px columns as possible */
       grid-template-columns: repeat(auto-fit, 240px);
+      grid-auto-rows: 170px;
+      grid-auto-flow: dense;
       gap: 16px;
       max-width: 1040px; /* Fits 4 columns nicely */
       padding: 20px;
@@ -30,6 +31,14 @@
       width: 240px;
       height: 170px;
       transition: transform 0.2s ease;
+    }
+    .card-wrapper.span-2 {
+      grid-column: span 2;
+      width: 496px; /* (240 * 2) + 16 gap */
+    }
+    .card-wrapper.row-2 {
+      grid-row: span 2;
+      height: 356px; /* (170 * 2) + 16 gap */
     }
     .card-wrapper:hover {
       transform: translateY(-5px);
@@ -43,12 +52,16 @@
 </head>
 <body>
   <div class="bento-grid">
-    <div class="card-wrapper"><img src="bento-nana.svg" alt="Nana Project"></div>
-    <div class="card-wrapper"><img src="bento-secret-pipe.svg" alt="Secret Pipe Project"></div>
-    <div class="card-wrapper"><img src="bento-contact.svg" alt="Contact Info"></div>
-    
+    <!-- Large items first for better flow -->
+    <div class="card-wrapper span-2"><img src="bento-intro.svg" alt="Hi, I'm Michal!"></div>
+    <div class="card-wrapper row-2"><img src="bento-tech.svg" alt="Tech Stack"></div>
+    <div class="card-wrapper span-2"><img src="bento-hobbies.svg" alt="Hobbies"></div>
+
+    <div class="card-wrapper"><a href="https://pypi.org/project/nana-wiki/"><img src="bento-nana.svg" alt="Nana Project"></a></div>
+    <div class="card-wrapper"><a href="https://secret-pipe.pages.dev"><img src="bento-secret-pipe.svg" alt="Secret Pipe Project"></a></div>
+    <div class="card-wrapper"><a href="https://linkedin.com/in/mlemiec"><img src="bento-contact.svg" alt="Contact Info"></a></div>
+
     <!-- Dynamic GitHub Streak Count -->
-    <!-- Replace 'YOUR_USERNAME' with your actual GitHub handle -->
     <div class="card-wrapper">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=mlemiec&theme=tokyonight&hide_border=true&background=161b22&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=8b949e&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak">
     </div>
